@@ -1,5 +1,5 @@
-import { SyntheticEvent, useEffect, useRef, useState } from "react";
-import { Post, PostRequest } from "../Types/Types";
+import { SyntheticEvent, useEffect, useState } from "react";
+import { PostRequest } from "../Types/Types";
 
 export const CreatePost = (params: { postPost: any }) => {
     const [editMode, setEditMode] = useState<boolean>(false)
