@@ -1,0 +1,50 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 400px;
+}
+
+.create-post {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    min-height: 400px;
+}
+
+
+
+.create-post-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 20px;
+    width: 300px;
+    min-height: 300px;
+}
+
+.create-post-form--form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 180px;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.post-card--button {
+    width: 100px;
+}
+
